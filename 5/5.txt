@@ -1,0 +1,9 @@
+I tried to use grouping by,ordering by and search
+
+'Grouping by' we can do with content type buttons  XHR,JS,CSS,Img,Media..etc. In the future it can be used to quickly group and display only the resources that we need. And those resources that are not currently required - will not be shown.Also we can group resources/files in several types at once.
+
+'Ordering by' we can do from bigger to smaller and from smaller to bigger (by clicking buttons 'Name'(sorting by ABC),'status','type','Initiator','Size','Time'). Useful in cases,when you need to quickly find request with the biggest/the smallest status-code etc.
+
+We can search by name (type name in input 'filter') or with keywords that let us sort resources by various properties , such as  method , status-code , scheme  etc. It useful when , for example, we want to find request with Request Method:POST or Status-code:200 ...etc.
+
+And,of course,all these features can be combined to quickly search the necessary requests and files.

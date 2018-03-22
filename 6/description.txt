@@ -1,0 +1,15 @@
+Response headers: 
+
+ Cache-control  - Specifies directives for caching mechanisms in both requests and responses. 
+ Content-encoding - Used to specify the compression algorithm. 
+ Content-type - Indicates the media type of the resource. 
+ Date - Contains the date and time at which the message was originated.
+ Expires - The date/time after which the response is considered stale. 
+ Pragma - Implementation-specific header that may have various effects anywhere along the request-response chain.
+ Set-cookie - Send cookies from the server to the user agent.
+ Strict-transport-security - Force communication using HTTPS instead of HTTP. 
+ Transfer-Encoding - Specifies the the form of encoding used to safely transfer the entity to the user. 
+ Vary - Determines how to match future request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server. 
+ X-content-type-options - Disables MIME sniffing and forces browser to use the type given in Content-Type. 
+ X-frame-options - Indicates whether a browser should be allowed to render a page in a <frame>, <iframe> or <object>
+ x-xss-protection - Enables cross-site scripting filtering

@@ -1,0 +1,11 @@
+Resources, where POST method is used:
+In all of this sites POST method is used on registration/login forms:
+1)https://twitter.com/ ( registration/login forms)
+2)https://www.facebook.com/ (registration/login forms)
+3)https://ru.aliexpress.com/ (registration/login)
+4)https://www.instagram.com/ (username input,password input,and SEND button that sends POST request with this information to the server)
+5)https://www.youtube.com/ (add account/registration/login forms)
+I detected that POST method is used there in Chrome DevTools –> choose Network tab and on 'filter' input typed “Method:POST”.
+
+The POST method is used there because it is secured for passing  confidential information to server, it will not visible in query parameters in URL(unlike GET) and parameters are not saved in browser history. 
+Using the POST method we can send large amount of data compared to GET method.
